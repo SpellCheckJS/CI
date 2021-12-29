@@ -1,0 +1,11 @@
+# Idea taken from Scratch AT on Github
+
+name: "Validate JSON"
+description: "Updates the members file in the main repository."
+
+runs:
+  using: "composite"
+  steps:
+    - name: "Run python script"
+      run: python3 $GITHUB_ACTION_PATH/scripts/validate.py $GITHUB_WORKSPACE
+      shell: "bash"
