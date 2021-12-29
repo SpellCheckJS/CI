@@ -1,7 +1,6 @@
-# Idea taken from Scratch AT on Github
+# Code taken from Scratch AT on Github
 
 name: "Validate JSON"
-description: "Updates the members file in the main repository."
 
 runs:
   using: "composite"
