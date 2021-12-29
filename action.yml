@@ -6,5 +6,5 @@ runs:
   using: "composite"
   steps:
     - name: "Run python script"
-      run: python3 $GITHUB_ACTION_PATH/scripts/validate.py $GITHUB_WORKSPACE
+      run: python3 $GITHUB_ACTION_PATH/scripts/validate.py
       shell: "bash"
